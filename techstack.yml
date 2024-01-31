@@ -1,0 +1,150 @@
+repo_name: tstangenberg/spring-boot-kotlin-demo
+report_id: 8f99ac6b8a67661919fe6b61463dcb91
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T10:34:28+00:00'
+requested_by: winfr34k
+provider: github
+branch: main
+detected_tools_count: 11
+tools:
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo
+  detection_source: Repo Metadata
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/src/main/resources/application.properties
+  detection_source: src/main/resources/application.properties
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  version: 2.1.214
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
+  vulnerabilities:
+  - name: 'Password exposure in H2 Database '
+    cve_id: CVE-2022-45868
+    cve_url: https://github.com/advisories/GHSA-22wj-vf5f-wrvj
+    detected_date: Nov 24
+    severity: high
+    first_patched: 2.2.220
+- name: org.jetbrains.kotlin:kotlin-reflect
+  description: Kotlin Full Reflection Library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk8
+  description: Kotlin Standard Library JDK 8 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/tstangenberg/spring-boot-kotlin-demo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Thomas Keppler
+  last_updated_on: 2022-12-11 01:59:33.000000000 Z
